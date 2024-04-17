@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Namidori</title>
+
+    <link
+    rel="shortcut icon"
+    sizes="50x50"
+    type="image/x-icon" 
+    href="../..//imgs/logo2.jpg"
+  />
+  <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="blog2.css" />
+  </head>
+
+  <body style="background-color: whitesmoke">
+
+
+    <!--HEADER-->
+    <div style="position: relative; position: fixed;z-index: 9999; width: 100%; top: 0;">
+      <div style="display: flex; background-color: black; justify-content: last baseline;">
+        <div>
+        <a href="#" style="text-decoration: none; color: white;">namidorishoes@gmail.com /</a>
+        <a href="#" style="text-decoration: none; color: white;">0867675067</a>
+        </div>
+        <div style="display: flex; position: absolute; right: 20px;">
+        <a href="../login/login.html" style="text-decoration: none; color: white;">Đăng Nhập</a>
+        </div>
+    </div>
+      <div
+      id="navbar"
+      class="d-flex justify-content-center"
+      style="height: 100px; z-index: 9999; width: 100%;"
+    >
+      <div id="navbar-logo" style="display: flex;">
+ 
+        <a href="../trang chu/header.html">
+          <img
+          src="../../imgs/logo1.webp"
+          style="width: 170px; height: 100px">
+        </a>
+        
+      </div>
+      <div id="navbar-element" style="background-color: white; width: 100%; display: flex; justify-content: center; padding-right: 150px;">
+        <ul class="d-flex  fw-bold m-0" style="list-style: none; padding-top: 40px; gap: 50px;">
+          <li>
+            <div class="dropdown">
+              <button class="dropbtn fw-bold p-0" style="background-color: white;" >
+                <a href="../MTO/Shoe/shoe.html" id="nav-element-a" style="color: black; background-color: white;; text-decoration: none; font-size: 15px;">SHOES <i class="fa-solid fa-sort-down"></i></a>
+              </button>
+              <div class="dropdown-content" style="font-size: 12px">
+                <a href="#">BASIC</a>
+                <a href="#">ADVANTAGE</a>
+                <a href="#">XERYUS</a>
+                <a href="#">MULE-SANDAL</a>
+                <a href="#">OTHER</a>
+              </div>
+            </div>
+          </li>
+
+          <li>
+            <div class="dropdown">
+             <button class="dropbtn fw-bold p-0" style="background-color: white;" >
+               <a href="../MTO/mto.html" id="nav-element-a" style="color: black; background-color: white;; text-decoration: none; font-size: 15px">ACCESSORIES <i class="fa-solid fa-sort-down"></i></a>
+             </button>
+              <div class="dropdown-content" style="font-size: 12px">
+                <a href="#">BELT</a>
+                <a href="#">BAG</a>
+                <a href="#">CLUTCH</a>
+                <a href="#">WALLET</a>
+                <a href="#">WATCHSTRAP</a>
+                <a href="#">LEATHER-JACKET</a>
+                <a href="#">SOCK</a>
+                <a href="#">POLO SHIRT</a>
+              </div>
+            </div>
+          </li>
+
+          <li>
+            <div class="dropdown">
+             <button class="dropbtn fw-bold p-0" style="background-color: white;" >
+               <a href="../Shoe care/shoecare.html" id="nav-element-a" style="color: black; background-color: white;; text-decoration: none; font-size: 15px">SHOE CARE <i class="fa-solid fa-sort-down"></i></a>
+             </button>
+              <div class="dropdown-content" style="font-size: 12px">
+                <a href="#">SPA & SHINING</a>
+                <a href="#">THAY ĐẾ DA - RESOLE</a>
+                <a href="#">DỊCH VỤ DÁN ĐẾ NON-SLIP</a>
+              </div>
+            </div>
+          </li>
+
+          <li>
+            <div class="dropdown">
+             <button class="dropbtn fw-bold p-0" style="background-color: white;" >
+               <a href="../belt/belt.html" id="nav-element-a" style="color: black; background-color: white;; text-decoration: none; font-size: 15px">PERSONNALIZATION <i class="fa-solid fa-sort-down"></i></a>
+             </button>
+              <div class="dropdown-content" style="font-size: 12px">
+                <a href="#">MTO</a>
+                <a href="#">MTM</a>
+                <a href="#">BESPOKE</a>
+                <a href="#">PATINA</a>
+              </div>
+            </div>
+          </li>
+          
+       
+         <li>
+           <div class="dropdown">
+            <button class="dropbtn fw-bold p-0" style="background-color: white;" >
+              <a href="../blog/blog.html" id="nav-element-a" style="color: black; background-color: white;; text-decoration: none; font-size: 15px">BLOG <i class="fa-solid fa-sort-down"></i></a>
+            </button>
+             <div class="dropdown-content" style="font-size: 12px">
+               <a href="#">Những Kiến Thức Về Giày Tây</a>
+               <a href="#">Kinh Nghiệm Dùng Giày Da</a>
+               <a href="#">Tin Tức Mới</a>
+              
+             </div>
+           </div>
+         </li>
+
+        </ul>
+        <div style="display: flex;">
+              <div style="display: flex;">
+                <div style="margin-top: 42px; padding-left: 30px">
+                  <input type="text" placeholder="tìm kiếm ..."><i class="fa-solid fa-magnifying-glass" style="width: 5px;"></i>
+                </div >
+                <a href="#"><i class="fa-solid fa-cart-shopping" style="margin-top: 48px; padding-left: 50px;"></i></a>
+              </div>
+            </div>
+      </div>
+    </div>
+    </div>
+
+    <div class="slide" style="width: 100%; height: 200px; position: relative; margin-top: 130px;">
+      <img src="https://scontent.fsgn2-6.fna.fbcdn.net/v/t39.30808-6/267552170_414478230245774_1789199603173545233_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=5f2048&_nc_ohc=H4OcXWzfGE0Ab4pHk-u&_nc_ht=scontent.fsgn2-6.fna&oh=00_AfBLgE8XTyMtiz-1gwVxyHp3AWm4fiQQQlsQK-RQ2KKKww&oe=661FF2F9" alt="..." style="height: 200px; width: 100%;">
+      <div>
+        <a href="#" style="position: absolute; top: 20%; left: 50%; text-decoration: none; color: white;">
+          <span>INTRODUCE</span></a>
+      </div>
+      <p style="position: absolute; top: 40%; left: 45%; font-size: 40px; color: white;">BLOG</p>
+      <div style="position: absolute; bottom: 5%; left: 48%;">
+        <div style="display: flex; color: white;"> Trang chủ
+          <p style="margin-left: 7px;">/</p>
+          <p style="margin-left: 7px; color: brown;">BLOG</p></div>
+      </div>
+    </div>
+
+    <!--Infor-->
+    <div class="infor" style="margin-left: 25%; margin-right: 20%">
+      <h5 class="info1 mt-5">
+        Hướng Dẫn Xác Định Size Giày Âu Nam Cực Chuẩn Xác
+      </h5>
+      <p>
+        Nếu bạn đang phân vân về cách chọn size giày Âu cho người thân, thì bài
+        viết này dành cho bạn, Hãy cùng Namidori tìm hiểu nhé!
+      </p>
+      <h5>1. Việc xác định size giày liệu có cần thiết?</h5>
+      <p>
+        Việc xác định size giày chắc chắn sẽ rất cần thiết? Giày cũng không
+        ngoại lệ! Việc chọn đúng size giày sẽ giúp người mang cảm thấy thoải
+        mái, di chuyển linh hoạt, dễ dàng mà không bị khó chịu, ảnh hưởng đến
+        sức khỏe.
+      </p>
+      <p>
+        Ví dụ, nếu bạn chọn size giày nhỏ, vừa đúng với chân hoặc chật so với
+        kích cỡ chân sẽ rất dễ bị đau gót chân, cản trở việc di chuyển hoặc
+        khiến đôi chân biến dạng. Một điển hình chính là đôi chân của những diễn
+        viên múa bale, bạn sẽ thấy rõ rệt đều đó.
+      </p>
+      <p>
+        Ngược lại, nếu chọn những đôi giày có size rộng hơn so với chân, người
+        mang sẽ di chuyển thiếu tự nhiên, cảm thấy khó chịu, thậm chí là bị tuột
+        giày trong khi đi lại.Rất bất tiện và rất dễ bị "quê" nếu gặp sự cố ở
+        những buổi tiệc quan trọng.
+      </p>
+      <img
+        src="https://bizweb.dktcdn.net/100/095/539/files/namidori-bespoke-boots-1.jpg?v=1709277202950"
+        class="img mt-4 mb-5"
+        style="height: 700px"
+      />
+      <h5>2. Xác định chiều dài bàn chân</h5>
+      <p>
+        eo xác nhận của Trung tâm Thông tin Công nghệ sinh học Quốc gia Hoa Kỳ
+        (NCBI). Cách đo chiều dài bàn chân chuẩn như sau:
+      </p>
+      <ul>
+        <li>Chiều dài bề ngoài chân: Đo từ rốn đến mắt cá chân ở trong.</li>
+        <li>
+          Chiều dài chân thực tế: Đo từ xương hông cho đến mắt cá chân cùng bên
+          phía trong.
+        </li>
+      </ul>
+      <p>
+        Bên cạnh đó, để biết đôi chân có tỷ lệ dài, ngắn hay vừa vặn với cơ thể,
+        người ta sẽ dựa vào chỉ số Skelie được tính theo công thức sau:
+      </p>
+      <h5>
+        Chỉ số Skelie = (Chiều cao đứng - chiều cao ngồi)/Chiều cao ngồi * 100
+      </h5>
+      <ul>
+        <li>
+          Nếu 70 <= chỉ số Skelie < 84,9 thì chân bạn thuộc diện chân ngắn.
+        </li>
+        <li>Nếu 85 <= chỉ số Skelie <= 89 thì chân bạn thuộc diện chân vừa.</li>
+        <li>Nếu 89 < chỉ số Skelie <= 100 thì chân bạn thuộc diện chân dài.</li>
+      </ul>
+      <p>
+        Cách đo chiều cao của chân cũng rất quan trọng, góp phần giúp bạn xác
+        định size giày nam chuẩn hơn. Theo đó, cách đo như sau:
+      </p>
+      <ul>
+        <li>
+          Đo chiều cao đứng: Hãy đứng thẳng, dựa sát vào tường sao cho lưng, đầu
+          , mông và gót chân chạm nhẹ tường, sau đó đo chiều dài từ gót đến đỉnh
+          đầu.
+        </li>
+        <li>
+          Đo chiều cao ngồi: Hãy ngồi thẳng và dựa sát tường, sau đó đo chiều
+          dài từ nền đến đỉnh đầu.
+        </li>
+      </ul>
+      <h5>3. Bảng quy đổi size giày nam chuẩn 2024</h5>
+      <p>
+        Do chiều dài chân của người nước ngoài và người Việt Nam khác nhau nên
+        size giày cũng có sự chênh lệch. Vì vậy, bạn cần nắm bảng size giày
+        chuẩn của Việt Nam, từ đó quy đổi ra size giày quốc tế để chọn sản phẩm
+        phù hợp.
+      </p>
+      <img
+        src=" https://bizweb.dktcdn.net/100/095/539/products/namidori-shoes-size-guide-81c40f5f-6578-45cd-bc2b-34d883e28749.jpg?v=1696574799750"
+        class="img mt-4 mb-5"
+        style="height: 300px"
+      />
+      <h5>
+        Bảng size giày chuẩn Việt Nam và bảng quy đổi theo size giày Quốc tế
+      </h5>
+      <ul>
+        <li>Bảng quy đổi size giày theo chuẩn Mỹ (US - UK)</li>
+        <li>Cách quy đổi size giày theo tiêu chuẩn châu Âu (EU)</li>
+      </ul>
+      <p>
+        Size giày dựa theo tiêu chuẩn châu Âu thường được áp dụng phổ biến ở EU,
+        chủ yếu là Ý, Tây Ban Nha, Pháp, Đức. Song, một số quốc gia ở khu vực
+        Trung Đông, châu Á cũng áp dụng size giày theo tiêu chuẩn này.
+      </p>
+      <p>
+        Ngày nay, tiêu chuẩn size giày nam châu Âu được tính theo đơn vị Paris
+        point. Theo đó, 1 Paris point = ⅔ cm và được áp dụng theo công thức như
+        sau:
+      </p>
+      <ul>
+        <li>Size giày EU = 3/2 x chiều dài khuôn giày (cm).</li>
+        <li>Size giày EU = 3/2 x chiều dài bàn chân + 1.5cm</li>
+      </ul>
+      <h5>Hướng dẫn đo size giày Tây Nam chính xác</h5>
+      <ul>
+        <li>
+          Bước 1: Chuẩn bị một tờ giấy (A4 hoặc A5), thước kẻ, bút chì hoặc một
+          vài chiết tất nếu bạn định mang cùng với giày.
+        </li>
+        <li>
+          Bước 2: Giậm chân mạnh lên tờ giấy, sau đó giữ chúng thật chắc để
+          không bị xê dịch khỏi vị trí. Sau đó, hãy dùng bút chì vẽ lại khung
+          bàn chân trên tờ giấy.
+        </li>
+        <li>
+          Bước 3: Đánh dấu 4 điểm gồm 2 điểm đầu ngón chân và 2 điểm cuối gót
+          chân bằng chì, sau đó dùng thước kẻ đo lại chiều dài của hai điểm này.
+        </li>
+        <li>
+          Bước 4: Dùng thước hoặc sợi dây và định vị vị trí gần đầu mũi có bề
+          ngang hay mu bàn chân để đo chiều rộng của bàn chân.
+        </li>
+        <li>
+          Bước 5: Sau khi đã đo chiều dài và chiều rộng, bạn hãy tính size giày
+          bằng công thức sau: Size giày = N = L (chiều dài bàn chân) + 1,5cm.
+          Dựa vào số liệu có được, bạn hãy quy đổi và so sánh trên bảng size
+          giày chuẩn dành cho nam ở trên.
+        </li>
+      </ul>
+      <p>
+        Đây là một số chia sẻ mà Namidori đã tìm hiểu, đúc kết và áp dụng vào
+        thực tế khi thực hiện Bespoke cho Khách Hàng, nếu bạn muốn tìm hiểu sâu
+        hơn về cách đo size giày thì đừng ngần ngại liên hệ Namidori để được hỗ
+        trợ nhé!
+      </p>
+    </div>
+
+    <!--Promotion-->
+    <div style="background-image: url(https://scontent.fsgn2-9.fna.fbcdn.net/v/t39.30808-6/411928797_759325699561798_4876145311992203048_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=5f2048&_nc_ohc=vR7Q9moig4wAb7amp4p&_nc_ht=scontent.fsgn2-9.fna&oh=00_AfAb4FLVQLHQ61XLb3Y6pmgs5CbVqqp1RZ_i3X-pe6dXZg&oe=6620A30A) ; width: 100%; height: 300px; margin-top: 20px;">
+      <div class="container" style="font-size: 20px;">
+        <div class="row">
+          <div class="col-lg-12 col-md-12 padding mt-5 ">
+            <div class="letter-left heading">
+              <p style="display: flex; justify-content: center; color: white; margin-top: 20px;">Nhập Email</p>
+              <p  style="display: flex; justify-content: center; color: white;">Để Nhận Tin Tức Từ Phía Chúng Tôi</p>
+            </div>
+             <form>
+              <div class="input-group" style="padding-top: 20px;">
+                <input type="email" class="form-control" placeholder="Nhập email của bạn">
+                <span class="input-group-btn">
+                  <button class="btn btn-primary button_gradient" type="submit" title="Gửi ngay">Gửi ngay</button>
+                </span>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- INFOR -->
+    <div class="container d-flex justify-content-around align-items-start mt-4" style="gap: 45px;">
+      <div> Hệ Thống cửa hàng
+        <div class="adress mt-5" style="font-size: 14px;">
+          <div style="padding-bottom: 15px;"> <i class="fa-solid fa-location-pin me-2"></i>SG: 298 Trần Hưng Đạo, P. NCT, Q1, HCM</div>
+        <div style="padding-bottom: 15px"> <i class="fa-solid fa-location-pin me-2"></i>HN: 101 Bùi Thị Xuân, Q. HBT, HN</div>
+        <div style="padding-bottom: 15px"> <i class="fa-solid fa-phone-flip me-2 "></i>Hotline: <a href="#" style="text-decoration: none;">0867.675.067</a>
+        </div>
+        <div > <i class="fa-solid fa-location-pin me-2"></i>Email: <a href="#" style="text-decoration: none;">namidorishoes@gmail.com</a></div>
+        </div>
+      
+      <div style="padding-top: 5px;">
+        <a href="#">
+          <img src="https://bizweb.dktcdn.net/100/095/539/themes/898026/assets/bocongthuong.png?1688543444751">
+        </a>
+      </div>
+      </div>
+      <div>Về Chúng Tôi
+      <div class="about mt-5" style="width:20vw; font-size: 14px;" >
+        <div class="about" style="padding-bottom: 15px;"> <a href="#" style="text-decoration: none; color:#98a6b6;">Giới Thiệu</a></div>
+        <div class="about" style="padding-bottom: 15px;"> <a href="#" style="text-decoration: none; color:#98a6b6;">Tin Tức</a></div>
+        <div class="about" style="padding-bottom: 15px;"> <a href="#" style="text-decoration: none; color:#98a6b6;">Liên Hệ</a></div>
+        <div class="about" style="padding-bottom: 15px;"> <a href="#" style="text-decoration: none; color:#98a6b6;">Shipping cost</a></div>
+      </div>
+      </div>
+      <div>Chính Sách
+        <div class="Policy mt-5" style="width:20vw; font-size: 14px;">
+          <div class="Policy" style="padding-bottom: 15px;"> <a href="#" style="text-decoration: none; color:#98a6b6;">Chính Sách Thanh Toán</a></div>
+          <div class="Policy" style="padding-bottom: 15px;"> <a href="#" style="text-decoration: none; color:#98a6b6;">Chính Sách Vận Chuyển</a></div>
+          <div class="Policy" style="padding-bottom: 15px;"> <a href="#" style="text-decoration: none; color:#98a6b6;">Chính Sách Đổi Trả</a></div>
+          <div class="Policy" style="padding-bottom: 15px;"> <a href="#" style="text-decoration: none; color:#98a6b6;">Chính Sách Bảo Hành</a></div>
+          <div class="Policy" style="padding-bottom: 15px;"> <a href="#" style="text-decoration: none; overflow: hidden; width: 129px; color:#98a6b6;">Chính Sách Bảo Mật</a></div>
+        </div>
+      </div>
+      <div class="page">Fanpage
+      <form class="page1 d-flex justify-content-start">
+        <div class="divcha" style=" position: relative; display: flex;">
+          <img src="../../imgs/background.jpg" style="height: 125px; width: 250px; margin-top: 50px;">
+          <div class="divcon" style=" position: absolute; margin-left: 10px;">
+            <a href="">
+              <img src="../../imgs/page.jpg" style="height: 50px; width: 50px; margin-top: 60px; border: 2px solid white; "> 
+             </a>
+          </div>
+          <div class="divcon1" style="margin-top: 55px; position: absolute; margin-left: 65px; color: white;">
+            <p style="text-overflow: ellipsis; white-space: nowrap; width: 144px; overflow: hidden;"> Namidori Luxury Handmade Shoes </p>
+          </div>
+          <div class="dicocn2" style="margin-top: 72px; position: absolute; margin-left: 65px; color: white; font-size: 13px;">
+            <p>28k người theo dõi</p>
+          </div>
+          <div class="divcon3" style=" position: absolute;">
+            <button style="margin-top: 140px; margin-left: 10px; width: 100px;">
+              <a href="#" style="text-decoration: none; font-size: 13px;"> <i class="fa-brands fa-square-facebook"></i>
+                LikePage
+              </a>
+            </button>
+          </div>
+        </div>
+        </form>
+        <div style="margin-top: 20px;">
+          <a href="#" style="text-decoration: none;"> <h5 style="font-size: 14px;">Thanh Toán</h5>
+            <img src="https://bizweb.dktcdn.net/100/095/539/themes/898026/assets/payment.png?1688543444751" alt="">
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div style=" display: flex; justify-content: center; background-color: black;">
+      <p style="color: white; font-size: 7px; padding-right: 5px;">
+        <i class="fa-solid fa-copyright"></i>
+      </p>
+      <h5 style="font-size: 14px; color: white; padding-right: 5px;">Bản quyền thuộc về</h5>
+      <h5 style="font-size: 14px; color: brown; padding-right: 5px;">Namidori Luxury Handmade Shoes</h5>
+      <h5 style="font-size: 14px; color: white;" color: white;>| cung cấp bởi Sapo</h5>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

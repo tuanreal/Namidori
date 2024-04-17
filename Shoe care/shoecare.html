@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Namidori</title>
+
+    <link
+      rel="shortcut icon"
+      sizes="50x50"
+      type="image/x-icon" 
+      href="../imgs/logo2.jpg"
+    />
+    
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="shoecare.css" />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+  </head>
+  <body style="background-color: whitesmoke;">
+
+
+    <!--header-->
+    <div style="position: relative; position: fixed;z-index: 9999; width: 100%; top: 0;">
+      <div style="display: flex; background-color: black; justify-content: last baseline;">
+        <div>
+        <a href="#" style="text-decoration: none; color: white;">namidorishoes@gmail.com /</a>
+        <a href="#" style="text-decoration: none; color: white;">0867675067</a>
+        </div>
+        <div style="display: flex; position: absolute; right: 20px;">
+        <a href="../login/login.html" style="text-decoration: none; color: white;">Đăng Nhập</a>
+        </div>
+    </div>
+      <div
+      id="navbar"
+      class="d-flex justify-content-center"
+      style="height: 100px; z-index: 9999; width: 100%;"
+    >
+      <div id="navbar-logo" style="display: flex;">
+ 
+        <a href="../trang chu/header.html">
+          <img
+          src="../imgs/logo1.webp"
+          style="width: 170px; height: 100px">
+        </a>
+        
+      </div>
+      <div id="navbar-element" style="background-color: white; width: 100%; display: flex; justify-content: center; padding-right: 150px;">
+        <ul class="d-flex  fw-bold m-0" style="list-style: none; padding-top: 40px; gap: 50px;">
+          <li>
+            <div class="dropdown">
+              <button class="dropbtn fw-bold p-0" style="background-color: white;" >
+                <a href="../MTO/Shoe/shoe.html" id="nav-element-a" style="color: black; background-color: white;; text-decoration: none; font-size: 15px;">SHOES <i class="fa-solid fa-sort-down"></i></a>
+              </button>
+              <div class="dropdown-content" style="font-size: 12px">
+                <a href="../MTO/Shoe/shoe.html">BASIC</a>
+                <a href="../MTO/Shoe/shoe.html">ADVANTAGE</a>
+                <a href="#">XERYUS</a>
+                <a href="#">MULE-SANDAL</a>
+                <a href="#">OTHER</a>
+              </div>
+            </div>
+          </li>
+
+          <li>
+            <div class="dropdown">
+             <button class="dropbtn fw-bold p-0" style="background-color: white;" >
+               <a href="../MTO/mto.html" id="nav-element-a" style="color: black; background-color: white;; text-decoration: none; font-size: 15px">ACCESSORIES <i class="fa-solid fa-sort-down"></i></a>
+             </button>
+              <div class="dropdown-content" style="font-size: 12px">
+                <a href="../belt/belt.html">BELT</a>
+                <a href="#">BAG</a>
+                <a href="#">CLUTCH</a>
+                <a href="#">WALLET</a>
+                <a href="#">WATCHSTRAP</a>
+                <a href="#">LEATHER-JACKET</a>
+                <a href="#">SOCK</a>
+                <a href="#">POLO SHIRT</a>
+              </div>
+            </div>
+          </li>
+
+          <li>
+            <div class="dropdown">
+             <button class="dropbtn fw-bold p-0" style="background-color: white;" >
+               <a href="../Shoe care/shoecare.html" id="nav-element-a" style="color: black; background-color: white;; text-decoration: none; font-size: 15px">SHOE CARE <i class="fa-solid fa-sort-down"></i></a>
+             </button>
+              <div class="dropdown-content" style="font-size: 12px">
+                <a href="../Shoe care/shoecare.html">SPA & SHINING</a>
+                <a href="../Shoe care/shoecare.html">THAY ĐẾ DA - RESOLE</a>
+                <a href="#">DỊCH VỤ DÁN ĐẾ NON-SLIP</a>
+              </div>
+            </div>
+          </li>
+
+          <li>
+            <div class="dropdown">
+             <button class="dropbtn fw-bold p-0" style="background-color: white;" >
+               <a href="../belt/belt.html" id="nav-element-a" style="color: black; background-color: white;; text-decoration: none; font-size: 15px">PERSONNALIZATION <i class="fa-solid fa-sort-down"></i></a>
+             </button>
+              <div class="dropdown-content" style="font-size: 12px">
+                <a href="../MTO/mto.html">MTO</a>
+                <a href="../MTO/mto.html">MTM</a>
+                <a href="#">BESPOKE</a>
+                <a href="#">PATINA</a>
+              </div>
+            </div>
+          </li>
+          
+       
+         <li>
+           <div class="dropdown">
+            <button class="dropbtn fw-bold p-0" style="background-color: white;" >
+              <a href="../blog/blog.html" id="nav-element-a" style="color: black; background-color: white;; text-decoration: none; font-size: 15px">BLOG <i class="fa-solid fa-sort-down"></i></a>
+            </button>
+             <div class="dropdown-content" style="font-size: 12px">
+               <a href="../blog/blog.html">Những Kiến Thức Về Giày Tây</a>
+               <a href="../blog/blog.html">Kinh Nghiệm Dùng Giày Da</a>
+               <a href="#">Tin Tức Mới</a>
+              
+             </div>
+           </div>
+         </li>
+
+        </ul>
+        <div style="display: flex;">
+              <div style="display: flex;">
+                <div style="margin-top: 42px; padding-left: 30px">
+                  <input type="text" placeholder="tìm kiếm ..."><i class="fa-solid fa-magnifying-glass" style="width: 5px;"></i>
+                </div >
+                <a href="#"><i class="fa-solid fa-cart-shopping" style="margin-top: 48px; padding-left: 50px;"></i></a>
+              </div>
+            </div>
+      </div>
+    </div>
+    </div>
+
+  
+
+   
+
+     <!--background-->
+     <div class="slide" style="width: 100%; height: 200px; position: relative; margin-top: 130px;">
+      <img src="https://scontent.fsgn2-6.fna.fbcdn.net/v/t39.30808-6/267552170_414478230245774_1789199603173545233_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=5f2048&_nc_ohc=H4OcXWzfGE0Ab4pHk-u&_nc_ht=scontent.fsgn2-6.fna&oh=00_AfBLgE8XTyMtiz-1gwVxyHp3AWm4fiQQQlsQK-RQ2KKKww&oe=661FF2F9" alt="..." style="height: 200px; width: 100%;">
+      <div>
+        <a href="#" style="position: absolute; top: 20%; left: 50%; text-decoration: none; color: white;">
+          <span>INTRODUCE</span></a>
+      </div>
+      <p style="position: absolute; top: 40%; left: 45%; font-size: 40px; color: white;">SHOECARE</p>
+      <div style="position: absolute; bottom: 5%; left: 48%;">
+        <div style="display: flex; color: white;"> Trang chủ
+          <p style="margin-left: 7px;">/</p>
+          <p style="margin-left: 7px; color: brown;">SHOECARE</p></div>
+      </div>
+    </div>
+
+
+    <!--SHOE CARE-->
+    <div class="content mt-5 ms-5">
+      <div class="content1" style="font-size: 14px; padding-right: 300px; padding-left: 200px;">
+        <h1>Chăm sóc giày</h1>
+        <h4>
+          Phụ nữ có làn da đẹp là nhờ chăm sóc, dưỡng da đều đặn. Giày da cũng
+          vậy, cũng cần được chăm sóc, bảo dưỡng tốt thì mới đẹp và bền được.
+          Thế nhưng nhiều người chưa biết cách bảo quản, chăm sóc giày da đúng
+          cách:
+        </h4>
+        <h4>1 . Mua giày chất lượng tốt</h4>
+        <p>
+          Hãy nhớ “Tiền nào của đó”. Thay vì mua các đôi giày rẻ tiền bạn nên
+          đầu tư một số đôi chất lượng hơn, chăm sóc giày kỹ và sữ dụng được lâu
+          hơn. Nên nhớ là gần 1/2 thời gian cuộc đời của bạn là gắn liền với
+          giày (10 - 14 tiếng/ngày). Nên đừng tiếc tiền vì đôi giày.
+        </p>
+        <h4>2. Chống ẩm cho giày da</h4>
+        <p>
+          Vào mùa mưa, hoặc những ngày có độ ẩm cao khó tránh khỏi việc giày bị
+          ướt. Cách đơn giản nhất để chăm sóc giày là dùng giấy báo (loại mềm -
+          báo thường nhật, tránh dùng báo tạp chí) vò lại nhỏ cho vào giày da,
+          khoảng 30 phút nên thay báo mới nếu giày bị ướt quá nhiều vì báo sẽ
+          giúp thấm hết lượng nước bên trong giày. Tránh mang giầy da phơi nắng
+          vì như vậy giày sẽ bị cứng.
+        </p>
+        <h4>3. Giày da bị cứng và suất hiện vết nhăn</h4>
+        <p>
+          Giày da khi dùng lâu ngày sẽ bị cứng do lớp xi + bụi quá dày, đi rất
+          khó chịu. Trường hợp này để chăm sóc giày tốt nhất nên dùng renomat
+          tẩy sạch lớp bụi và xi cũ, sau đó dùng lotion hoặc cream bôi đều lên
+          da để dưỡng ẩm và làm mềm sau 5 phút có thể đánh sơ qua rồi bước cuối
+          mới bôi xi thêm để giúp giày bóng và bảo vệ bề mặt da.
+        </p>
+        <a href="https://www.youtube.com/watch?v=VjrsXdpf_vU&t=85s">
+          <img
+            src="https://bizweb.dktcdn.net/100/095/539/files/namidori-danh-bong-giay-da.jpg?v=1484023876393" style="width: 800px;"
+          />
+        </a>
+        <h4>4. Cách bảo quản, cất giữ giày da</h4>
+        <p>
+          Giày da sau khi chăm sóc giày, đánh bóng nên cho vào túi cotton để cất
+          giữ, hoăc cho vào hộp giấy để nơi thoáng mát khô ráo. Tránh để trên
+          nền đất và sát tường gạch vì giày da sẽ hút nhiều hơi nước từ bờ tường
+          sẽ làm mốc
+        </p>
+        <p>
+          Không nhét tất vào giày da khi không sử dụng . Hãy để đôi giày của bạn
+          thật thoáng khí. Điều đó giúp bạn tránh không biến đôi giày của bạn
+          thành ổ vi trùng gây hại tới da chân và sức khỏe.
+        </p>
+        <a href="https://www.youtube.com/watch?v=VjrsXdpf_vU"
+          >Hướng dẫn cách tự chăm sóc giày - 5 bước đánh bóng giày da
+        </a>
+        <a href="https://www.youtube.com/watch?v=xhDnnSrTQBs&t=311s"
+          >Hướng dẫn chăm sóc giày da lộn - 6 bước</a
+        >
+        <p>Dịch vụ chăm sóc giày chuyên nghiệp tại Namidori</p>
+        <img
+          src="https://bizweb.dktcdn.net/100/095/539/files/cham-soc-giay.jpg?v=1508601517963" style="width: 800px;"
+        />
+        <h4>Dịch Vụ Đánh Bóng Giày</h4>
+        <img
+          src="https://bizweb.dktcdn.net/100/095/539/files/dich-vu-cham-soc-giay-spa-danh-bong.jpg?v=1520597312199" style="width: 800px;"
+        />
+        <img
+          src="https://bizweb.dktcdn.net/100/095/539/files/dich-vu-cham-soc-giay.jpg?v=1520597204888" style="width: 800px;"
+        />
+        <h4>Dịch Vụ Thay đế</h4>
+        <img
+          src="https://bizweb.dktcdn.net/100/095/539/files/dich-vu-thay-de-da-namidori.jpg?v=1520597373808" style="width: 800px;
+          "
+        />
+        <h4>Dịch Vụ Nhuộm Màu Giày</h4>
+        <img
+          src="https://bizweb.dktcdn.net/100/095/539/files/dich-vu-nhuom-lai-mau-giay.jpg?v=1520595231959" style="width: 800px;"
+        />
+        <h4>Dịch Vụ Phục Hồi Giày</h4>
+        <img
+          src="https://bizweb.dktcdn.net/100/095/539/files/dich-vu-phuc-hoi-giay-namidori.jpg?v=1520595365748" style="width: 800px;"
+        />
+        <img
+          src="https://bizweb.dktcdn.net/100/095/539/files/dich-vu-phuc-hoi-giay-cu-namidori.jpg?v=1520597729521" style="width: 800px;"
+        />
+        <h4>Dịch Vụ Chữa Xước Cho Giày Da</h4>
+        <img
+          src="https://bizweb.dktcdn.net/100/095/539/files/dich-vu-chua-xuoc-giay-da-namidori.jpg?v=1520597491883" style="width: 800px;
+          "
+        />
+        <h4>Dịch Vụ Đánh Màu Dây Nịt Theo Màu Giày</h4>
+        <img
+          src="https://bizweb.dktcdn.net/100/095/539/files/dich-vu-danh-mau-day-nit-theo-mau-giay-namidori.jpg?v=1520597561651" style="width: 800px;
+          "/>
+        <h4>Dịch Vụ Dán Đế Giày (Non Slip)</h4>
+        <img
+          src="https://bizweb.dktcdn.net/100/095/539/files/dan-de-non-slip-tai-namidori-5683d7c9-5422-4fb8-82a2-ad938d7de750.jpg?v=1542471633606" style=" width: 800px;
+          "
+        />
+      </div>
+    </div>
+
+    <!--Promotion-->
+    <div style="background-image: url(https://scontent.fsgn2-9.fna.fbcdn.net/v/t39.30808-6/411928797_759325699561798_4876145311992203048_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=5f2048&_nc_ohc=vR7Q9moig4wAb7amp4p&_nc_ht=scontent.fsgn2-9.fna&oh=00_AfAb4FLVQLHQ61XLb3Y6pmgs5CbVqqp1RZ_i3X-pe6dXZg&oe=6620A30A) ; width: 100%; height: 300px; margin-top: 20px;">
+      <div class="container" style="font-size: 20px;">
+        <div class="row">
+          <div class="col-lg-12 col-md-12 padding mt-5 ">
+            <div class="letter-left heading">
+              <p style="display: flex; justify-content: center; color: white; margin-top: 20px;">Nhập Email</p>
+              <p  style="display: flex; justify-content: center; color: white;">Để Nhận Tin Tức Từ Phía Chúng Tôi</p>
+            </div>
+             <form>
+              <div class="input-group" style="padding-top: 20px;">
+                <input type="email" class="form-control" placeholder="Nhập email của bạn">
+                <span class="input-group-btn">
+                  <button class="btn btn-primary button_gradient" type="submit" title="Gửi ngay">Gửi ngay</button>
+                </span>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- INFOR -->
+    <div class="container d-flex justify-content-around align-items-start mt-4" style="gap: 45px;">
+      <div> Hệ Thống cửa hàng
+        <div class="adress mt-5" style="font-size: 14px;">
+          <div style="padding-bottom: 15px;"> <i class="fa-solid fa-location-pin me-2"></i>SG: 298 Trần Hưng Đạo, P. NCT, Q1, HCM</div>
+        <div style="padding-bottom: 15px"> <i class="fa-solid fa-location-pin me-2"></i>HN: 101 Bùi Thị Xuân, Q. HBT, HN</div>
+        <div style="padding-bottom: 15px"> <i class="fa-solid fa-phone-flip me-2 "></i>Hotline: <a href="#" style="text-decoration: none;">0867.675.067</a>
+        </div>
+        <div > <i class="fa-solid fa-location-pin me-2"></i>Email: <a href="#" style="text-decoration: none;">namidorishoes@gmail.com</a></div>
+        </div>
+      
+      <div style="padding-top: 5px;">
+        <a href="#">
+          <img src="https://bizweb.dktcdn.net/100/095/539/themes/898026/assets/bocongthuong.png?1688543444751">
+        </a>
+      </div>
+      </div>
+      <div>Về Chúng Tôi
+      <div class="about mt-5" style="width:20vw; font-size: 14px;" >
+        <div class="about" style="padding-bottom: 15px;"> <a href="#" style="text-decoration: none; color:#98a6b6;">Giới Thiệu</a></div>
+        <div class="about" style="padding-bottom: 15px;"> <a href="#" style="text-decoration: none; color:#98a6b6;">Tin Tức</a></div>
+        <div class="about" style="padding-bottom: 15px;"> <a href="#" style="text-decoration: none; color:#98a6b6;">Liên Hệ</a></div>
+        <div class="about" style="padding-bottom: 15px;"> <a href="#" style="text-decoration: none; color:#98a6b6;">Shipping cost</a></div>
+      </div>
+      </div>
+      <div>Chính Sách
+        <div class="Policy mt-5" style="width:20vw; font-size: 14px;">
+          <div class="Policy" style="padding-bottom: 15px;"> <a href="#" style="text-decoration: none; color:#98a6b6;">Chính Sách Thanh Toán</a></div>
+          <div class="Policy" style="padding-bottom: 15px;"> <a href="#" style="text-decoration: none; color:#98a6b6;">Chính Sách Vận Chuyển</a></div>
+          <div class="Policy" style="padding-bottom: 15px;"> <a href="#" style="text-decoration: none; color:#98a6b6;">Chính Sách Đổi Trả</a></div>
+          <div class="Policy" style="padding-bottom: 15px;"> <a href="#" style="text-decoration: none; color:#98a6b6;">Chính Sách Bảo Hành</a></div>
+          <div class="Policy" style="padding-bottom: 15px;"> <a href="#" style="text-decoration: none; overflow: hidden; width: 129px; color:#98a6b6;">Chính Sách Bảo Mật</a></div>
+        </div>
+      </div>
+      <div class="page">Fanpage
+      <form class="page1 d-flex justify-content-start">
+        <div class="divcha" style=" position: relative; display: flex;">
+          <img src="../imgs/background.jpg" style="height: 125px; width: 250px; margin-top: 50px;">
+          <div class="divcon" style=" position: absolute; margin-left: 10px;">
+            <a href="">
+              <img src="../imgs/page.jpg" style="height: 50px; width: 50px; margin-top: 60px; border: 2px solid white; "> 
+             </a>
+          </div>
+          <div class="divcon1" style="margin-top: 55px; position: absolute; margin-left: 65px; color: white;">
+            <p style="text-overflow: ellipsis; white-space: nowrap; width: 144px; overflow: hidden;"> Namidori Luxury Handmade Shoes </p>
+          </div>
+          <div class="dicocn2" style="margin-top: 72px; position: absolute; margin-left: 65px; color: white; font-size: 13px;">
+            <p>28k người theo dõi</p>
+          </div>
+          <div class="divcon3" style=" position: absolute;">
+            <button style="margin-top: 140px; margin-left: 10px; width: 100px;">
+              <a href="#" style="text-decoration: none; font-size: 13px;"> <i class="fa-brands fa-square-facebook"></i>
+                LikePage
+              </a>
+            </button>
+          </div>
+        </div>
+        </form>
+        <div style="margin-top: 20px;">
+          <a href="#" style="text-decoration: none;"> <h5 style="font-size: 14px;">Thanh Toán</h5>
+            <img src="https://bizweb.dktcdn.net/100/095/539/themes/898026/assets/payment.png?1688543444751" alt="">
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div style=" display: flex; justify-content: center; background-color: black;">
+      <p style="color: white; font-size: 7px; padding-right: 5px;">
+        <i class="fa-solid fa-copyright"></i>
+      </p>
+      <h5 style="font-size: 14px; color: white; padding-right: 5px;">Bản quyền thuộc về</h5>
+      <h5 style="font-size: 14px; color: brown; padding-right: 5px;">Namidori Luxury Handmade Shoes</h5>
+      <h5 style="font-size: 14px; color: white;" color: white;>| cung cấp bởi Sapo</h5>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+      integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

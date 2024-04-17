@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Namidori</title>
+    
+    
+    <link
+      rel="shortcut icon"
+      sizes="50x50"
+      type="image/x-icon" 
+      href="../imgs/logo2.jpg"
+    />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+    
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="blog.css" />
+  </head>
+  <body style="background-color: whitesmoke;">
+
+   <!--HEADER-->
+   
+   <div style="position: relative; position: fixed;z-index: 9999; width: 100%; top: 0;">
+    <div style="display: flex; background-color: black; justify-content: last baseline;">
+      <div>
+      <a href="#" style="text-decoration: none; color: white;">namidorishoes@gmail.com /</a>
+      <a href="#" style="text-decoration: none; color: white;">0867675067</a>
+      </div>
+      <div style="display: flex; position: absolute; right: 20px;">
+      <a href="../login/login.html" style="text-decoration: none; color: white;">Đăng Nhập</a>
+      </div>
+  </div>
+    <div
+    id="navbar"
+    class="d-flex justify-content-center"
+    style="height: 100px; z-index: 9999; width: 100%;"
+  >
+    <div id="navbar-logo" style="display: flex;">
+
+      <a href="../trang chu/header.html">
+        <img
+        src="../imgs/logo1.webp"
+        style="width: 170px; height: 100px">
+      </a>
+      
+    </div>
+    <div id="navbar-element" style="background-color: white; width: 100%; display: flex; justify-content: center; padding-right: 150px;">
+      <ul class="d-flex  fw-bold m-0" style="list-style: none; padding-top: 40px; gap: 50px;">
+        <li>
+          <div class="dropdown">
+            <button class="dropbtn fw-bold p-0" style="background-color: white;" >
+              <a href="../MTO/Shoe/shoe.html" id="nav-element-a" style="color: black; background-color: white;; text-decoration: none; font-size: 15px;">SHOES <i class="fa-solid fa-sort-down"></i></a>
+            </button>
+            <div class="dropdown-content" style="font-size: 12px">
+              <a href="../MTO/Shoe/shoe.html">BASIC</a>
+              <a href="../MTO/Shoe/shoe.html">ADVANTAGE</a>
+              <a href="#">XERYUS</a>
+              <a href="#">MULE-SANDAL</a>
+              <a href="#">OTHER</a>
+            </div>
+          </div>
+        </li>
+
+        <li>
+          <div class="dropdown">
+           <button class="dropbtn fw-bold p-0" style="background-color: white;" >
+             <a href="../MTO/mto.html" id="nav-element-a" style="color: black; background-color: white;; text-decoration: none; font-size: 15px">ACCESSORIES <i class="fa-solid fa-sort-down"></i></a>
+           </button>
+            <div class="dropdown-content" style="font-size: 12px">
+              <a href="../belt/belt.html">BELT</a>
+              <a href="#">BAG</a>
+              <a href="#">CLUTCH</a>
+              <a href="#">WALLET</a>
+              <a href="#">WATCHSTRAP</a>
+              <a href="#">LEATHER-JACKET</a>
+              <a href="#">SOCK</a>
+              <a href="#">POLO SHIRT</a>
+            </div>
+          </div>
+        </li>
+
+        <li>
+          <div class="dropdown">
+           <button class="dropbtn fw-bold p-0" style="background-color: white;" >
+             <a href="../Shoe care/shoecare.html" id="nav-element-a" style="color: black; background-color: white;; text-decoration: none; font-size: 15px">SHOE CARE <i class="fa-solid fa-sort-down"></i></a>
+           </button>
+            <div class="dropdown-content" style="font-size: 12px">
+              <a href="../Shoe care/shoecare.html">SPA & SHINING</a>
+              <a href="../Shoe care/shoecare.html">THAY ĐẾ DA - RESOLE</a>
+              <a href="#">DỊCH VỤ DÁN ĐẾ NON-SLIP</a>
+            </div>
+          </div>
+        </li>
+
+        <li>
+          <div class="dropdown">
+           <button class="dropbtn fw-bold p-0" style="background-color: white;" >
+             <a href="../belt/belt.html" id="nav-element-a" style="color: black; background-color: white;; text-decoration: none; font-size: 15px">PERSONNALIZATION <i class="fa-solid fa-sort-down"></i></a>
+           </button>
+            <div class="dropdown-content" style="font-size: 12px">
+              <a href="../MTO/mto.html">MTO</a>
+              <a href="#">MTM</a>
+              <a href="#">BESPOKE</a>
+              <a href="#">PATINA</a>
+            </div>
+          </div>
+        </li>
+        
+     
+       <li>
+         <div class="dropdown">
+          <button class="dropbtn fw-bold p-0" style="background-color: white;" >
+            <a href="../blog/blog.html" id="nav-element-a" style="color: black; background-color: white;; text-decoration: none; font-size: 15px">BLOG <i class="fa-solid fa-sort-down"></i></a>
+          </button>
+           <div class="dropdown-content" style="font-size: 12px">
+             <a href="../blog/blog.html">Những Kiến Thức Về Giày Tây</a>
+             <a href="../blog/blog.html">Kinh Nghiệm Dùng Giày Da</a>
+             <a href="#">Tin Tức Mới</a>
+            
+           </div>
+         </div>
+       </li>
+
+      </ul>
+      <div style="display: flex;">
+            <div style="display: flex;">
+              <div style="margin-top: 42px; padding-left: 30px">
+                <input type="text" placeholder="tìm kiếm ..."><i class="fa-solid fa-magnifying-glass" style="width: 5px;"></i>
+              </div >
+              <a href="#"><i class="fa-solid fa-cart-shopping" style="margin-top: 48px; padding-left: 50px;"></i></a>
+            </div>
+          </div>
+    </div>
+  </div>
+  </div>
+
+
+
+
+  <div class="slide" style="width: 100%; height: 200px; position: relative; margin-top: 130px;">
+    <img src="https://scontent.fsgn2-6.fna.fbcdn.net/v/t39.30808-6/267552170_414478230245774_1789199603173545233_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=5f2048&_nc_ohc=H4OcXWzfGE0Ab4pHk-u&_nc_ht=scontent.fsgn2-6.fna&oh=00_AfBLgE8XTyMtiz-1gwVxyHp3AWm4fiQQQlsQK-RQ2KKKww&oe=661FF2F9" alt="..." style="height: 200px; width: 100%;">
+    <div>
+      <a href="#" style="position: absolute; top: 20%; left: 50%; text-decoration: none; color: white;">
+        <span>INTRODUCE</span></a>
+    </div>
+    <p style="position: absolute; top: 40%; left: 48%; font-size: 40px; color: white;">BLOG</p>
+    <div style="position: absolute; bottom: 5%; left: 48%;">
+      <div style="display: flex; color: white;"> Trang chủ
+        <p style="margin-left: 7px;">/</p>
+        <p style="margin-left: 7px; color: brown;">BLOG</p></div>
+    </div>
+  </div>
+
+     <!--Nội Dung-->
+     <div class="link d-flex justify-content-center mt-5">
+      <h4>Tin Nổi Bật</h4>
+     </div>
+     <div class="nav-link d-flex justify-content-center">
+       <div class="card mt-5 me-5" style="width: 18rem; height: 25rem; ">
+         <img src="https://bizweb.dktcdn.net/thumb/large/100/095/539/articles/3.jpg?v=1709709791337" class="card-img-top " alt="...">
+         <div class="card-body">
+           <h5 class="card-title fs-6">Giày Cưới Chú Rễ Liệu Quan Trọng</h5>
+           <p class="card-text" style="overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">Ngày trọng đại của các cặp đôi đề có một ý nghĩa riêng.</p>
+           <a href="../MTO/News/blog1.html" class="btn btn-primary">Xem Ngay</a>
+         </div>
+       </div>
+       <div class="card mt-5 me-5" style="width: 18rem; height: 25rem;">
+         <img src="https://bizweb.dktcdn.net/thumb/large/100/095/539/articles/3.png?v=1711940734037" class="card-img-top" style="height: 50%;" alt="...">
+         <div class="card-body">
+           <h5 class="card-title fs-6">Hướng Dẫn Xác Định Size Giày Âu Nam Cực Chuẩn Xác</h5>
+           <p class="card-text" style="overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">Nếu bạn đang phân vân về cách chọn size giày Âu cho người thân.</p>
+           <a href="../MTO/News/blog2.html" class="btn btn-primary">Xem Ngay</a>
+         </div>
+       </div>
+       <div class="card mt-5 me-5" style="width: 18rem; height: 25rem;">
+         <img src="https://bizweb.dktcdn.net/thumb/large/100/095/539/articles/z5283660326420-11dc51c628642e059889718fd767d0d2.jpg?v=1711445391033" class="card-img-top" style="height: 50%;" alt="...">
+         <div class="card-body">
+           <h5 class="card-title fs-6">Bespoke Giày Âu Liệu Có Phù Hợp Với Người Việt?</h5>
+           <p class="card-text" style="overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">Những chàng trai công sở, những quý ông yêu thích giày Âu thì việc Bespoke Giày đã không còn xa lạ. </p>
+           <a href="#" class="btn btn-primary">Xem Ngay</a>
+         </div>
+       </div>
+     </div>
+
+        <!--Nội Dung-->
+         <div class="nav-link d-flex justify-content-center">
+           <div class="card mt-5 me-5" style="width: 18rem; height: 25rem;">
+             <img src="https://bizweb.dktcdn.net/thumb/large/100/095/539/articles/z5307852721943-e57b0eb9d0858d73c7f296bafe1ac72a.jpg?v=1712031260607" class="card-img-top " alt="..." style="height: 200px;">
+             <div class="card-body">
+               <h5 class="card-title fs-6">Chân Bé có Ảnh Hưởng Đến Việc Chọn Giày</h5>
+               <p class="card-text" style="overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">Bàn chân bè là loại bàn chân có hệ thống xương bàn chân và ngón chân ngắn.</p>
+               <a href="#" class="btn btn-primary">Xem Ngay</a>
+             </div>
+           </div>
+           <div class="card mt-5 me-5" style="width: 18rem; height: 25rem;">
+             <img src="https://bizweb.dktcdn.net/thumb/large/100/095/539/articles/1.jpg?v=1709621357857" class="card-img-top" style="height: 50%;" alt="...">
+             <div class="card-body">
+               <h5 class="card-title fs-6">Giày Tây Đặt Đóng Không Chỉ Là Thời Trang</h5>
+               <p class="card-text" style="overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">"oh my god", "wow",... chính là những cụm từ thường được các vị khách nhà Namidori phải thốt lên khi nhận được những sản phẩm final.</p>
+               <a href="#" class="btn btn-primary">Xem Ngay</a>
+             </div>
+           </div>
+           <div class="card mt-5 me-5" style="width: 18rem; height: 25rem;">
+             <img src="https://bizweb.dktcdn.net/thumb/large/100/095/539/articles/hptcd-namidori.jpg?v=1703577901597" class="card-img-top" style="height: 50%;" alt="...">
+             <div class="card-body">
+               <h5 class="card-title fs-6">Bespoke Giày Âu Liệu Có Phù Hợp Với Người Việt?</h5>
+               <p class="card-text" style="overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">Những chàng trai công sở, những quý ông yêu thích giày Âu thì việc Bespoke Giày đã không còn xa lạ. </p>
+               <a href="#" class="btn btn-primary">Xem Ngay</a>
+             </div>
+           </div>
+         </div>
+
+             <!--Promotion-->
+             <div style="background-image: url(https://scontent.fsgn2-9.fna.fbcdn.net/v/t39.30808-6/411928797_759325699561798_4876145311992203048_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=5f2048&_nc_ohc=vR7Q9moig4wAb7amp4p&_nc_ht=scontent.fsgn2-9.fna&oh=00_AfAb4FLVQLHQ61XLb3Y6pmgs5CbVqqp1RZ_i3X-pe6dXZg&oe=6620A30A) ; width: 100%; height: 300px; margin-top: 20px;">
+              <div class="container" style="font-size: 20px;">
+                <div class="row">
+                  <div class="col-lg-12 col-md-12 padding mt-5 ">
+                    <div class="letter-left heading">
+                      <p style="display: flex; justify-content: center; color: white; margin-top: 20px;">Nhập Email</p>
+                      <p  style="display: flex; justify-content: center; color: white;">Để Nhận Tin Tức Từ Phía Chúng Tôi</p>
+                    </div>
+                     <form>
+                      <div class="input-group" style="padding-top: 20px;">
+                        <input type="email" class="form-control" placeholder="Nhập email của bạn">
+                        <span class="input-group-btn">
+                          <button class="btn btn-primary button_gradient" type="submit" title="Gửi ngay">Gửi ngay</button>
+                        </span>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- INFOR -->
+            <div class="container d-flex justify-content-around align-items-start mt-4" style="gap: 45px;">
+              <div> Hệ Thống cửa hàng
+                <div class="adress mt-5" style="font-size: 14px;">
+                  <div style="padding-bottom: 15px;"> <i class="fa-solid fa-location-pin me-2"></i>SG: 298 Trần Hưng Đạo, P. NCT, Q1, HCM</div>
+                <div style="padding-bottom: 15px"> <i class="fa-solid fa-location-pin me-2"></i>HN: 101 Bùi Thị Xuân, Q. HBT, HN</div>
+                <div style="padding-bottom: 15px"> <i class="fa-solid fa-phone-flip me-2 "></i>Hotline: <a href="#" style="text-decoration: none;">0867.675.067</a>
+                </div>
+                <div > <i class="fa-solid fa-location-pin me-2"></i>Email: <a href="#" style="text-decoration: none;">namidorishoes@gmail.com</a></div>
+                </div>
+              
+              <div style="padding-top: 5px;">
+                <a href="#">
+                  <img src="https://bizweb.dktcdn.net/100/095/539/themes/898026/assets/bocongthuong.png?1688543444751">
+                </a>
+              </div>
+              </div>
+              <div>Về Chúng Tôi
+              <div class="about mt-5" style="width:20vw; font-size: 14px;" >
+                <div class="about" style="padding-bottom: 15px;"> <a href="#" style="text-decoration: none; color:#98a6b6;">Giới Thiệu</a></div>
+                <div class="about" style="padding-bottom: 15px;"> <a href="#" style="text-decoration: none; color:#98a6b6;">Tin Tức</a></div>
+                <div class="about" style="padding-bottom: 15px;"> <a href="#" style="text-decoration: none; color:#98a6b6;">Liên Hệ</a></div>
+                <div class="about" style="padding-bottom: 15px;"> <a href="#" style="text-decoration: none; color:#98a6b6;">Shipping cost</a></div>
+              </div>
+              </div>
+              <div>Chính Sách
+                <div class="Policy mt-5" style="width:20vw; font-size: 14px;">
+                  <div class="Policy" style="padding-bottom: 15px;"> <a href="#" style="text-decoration: none; color:#98a6b6;">Chính Sách Thanh Toán</a></div>
+                  <div class="Policy" style="padding-bottom: 15px;"> <a href="#" style="text-decoration: none; color:#98a6b6;">Chính Sách Vận Chuyển</a></div>
+                  <div class="Policy" style="padding-bottom: 15px;"> <a href="#" style="text-decoration: none; color:#98a6b6;">Chính Sách Đổi Trả</a></div>
+                  <div class="Policy" style="padding-bottom: 15px;"> <a href="#" style="text-decoration: none; color:#98a6b6;">Chính Sách Bảo Hành</a></div>
+                  <div class="Policy" style="padding-bottom: 15px;"> <a href="#" style="text-decoration: none; overflow: hidden; width: 129px; color:#98a6b6;">Chính Sách Bảo Mật</a></div>
+                </div>
+              </div>
+              <div class="page">Fanpage
+              <form class="page1 d-flex justify-content-start">
+                <div class="divcha" style=" position: relative; display: flex;">
+                  <img src="../imgs/background.jpg" style="height: 125px; width: 250px; margin-top: 50px;">
+                  <div class="divcon" style=" position: absolute; margin-left: 10px;">
+                    <a href="">
+                      <img src="../imgs/page.jpg" style="height: 50px; width: 50px; margin-top: 60px; border: 2px solid white; "> 
+                     </a>
+                  </div>
+                  <div class="divcon1" style="margin-top: 55px; position: absolute; margin-left: 65px; color: white;">
+                    <p style="text-overflow: ellipsis; white-space: nowrap; width: 144px; overflow: hidden;"> Namidori Luxury Handmade Shoes </p>
+                  </div>
+                  <div class="dicocn2" style="margin-top: 72px; position: absolute; margin-left: 65px; color: white; font-size: 13px;">
+                    <p>28k người theo dõi</p>
+                  </div>
+                  <div class="divcon3" style=" position: absolute;">
+                    <button style="margin-top: 140px; margin-left: 10px; width: 100px;">
+                      <a href="#" style="text-decoration: none; font-size: 13px;"> <i class="fa-brands fa-square-facebook"></i>
+                        LikePage
+                      </a>
+                    </button>
+                  </div>
+                </div>
+                </form>
+                <div style="margin-top: 20px;">
+                  <a href="#" style="text-decoration: none;"> <h5 style="font-size: 14px;">Thanh Toán</h5>
+                    <img src="https://bizweb.dktcdn.net/100/095/539/themes/898026/assets/payment.png?1688543444751" alt="">
+                  </a>
+                </div>
+              </div>
+            </div>
+      
+            <div style=" display: flex; justify-content: center; background-color: black;">
+              <p style="color: white; font-size: 7px; padding-right: 5px;">
+                <i class="fa-solid fa-copyright"></i>
+              </p>
+              <h5 style="font-size: 14px; color: white; padding-right: 5px;">Bản quyền thuộc về</h5>
+              <h5 style="font-size: 14px; color: brown; padding-right: 5px;">Namidori Luxury Handmade Shoes</h5>
+              <h5 style="font-size: 14px; color: white;" color: white;>| cung cấp bởi Sapo</h5>
+            </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+      integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
